@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+
+
+<h2><link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">ScriBBler</h2>
+<div><h4>Explore,Imagine,Create</h4></div>
+
+<body background="./images/background.jpg">
+    <button class="signup" id="signupBtn">Sign Up</button>
+    <button class="signin" id="signinBtn">Sign In</button>
+    <button class="allposts">All Posts</button>
+    <button class="createpost">Create Post</button>
+    
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeSignInModal">x</span>
+            <div><h3>Get Started</h3></div>
+            <form>
+                <div><label for="name">Name</label></div>
+                <div><input type="text" id="name" name="name" required placeholder="Enter your name"></div>
+
+               <div><label for="username">Username</label></div>
+               <div> <input type="text" id="username" name="username" required placeholder="Enter your username"> </div>
+
+                <div><label for="password">Password</label></div>
+                <div><input type="password" id="password" name="password" required placeholder="Enter your password"></div>
+
+                <div><label for="confirm password">Confirm Password</label></div>
+                <div><input type="password" id=" confirm password" name="confirm password" required placeholder="Re-enter your password"></div>
+
+                <button class="submit">Sign Up</button>
+
+
+                <div id="signinModal" class="modal">
+                    <div class="modal-signin">
+                        <span class="close" id="closeSignInModal">x</span>
+                        <div><h3>Welcome Back!</h3></div>
+                        <form>
+                            <div><label for="username">Username</label></div>
+                <div><input type="text" id="name" name="name" required placeholder="Enter your username"></div>
+
+               <div><label for="password">Password</label></div>
+               <div> <input type="text" id="password" name="password" required placeholder="Enter your password"> </div>
+               <button class="submit-In">Sign In</button>
+            
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+    
+    
+</body>
+</html>
+
+
+

@@ -1,0 +1,95 @@
+body{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    font-family: 'Montez', cursive; 
+    color: blue;
+}
+h4{
+    position: fixed;
+    top: 5%;
+}
+.signup{                              
+    background-color: blue;
+    color: white;
+    position: fixed;
+    top: 5%;
+    left: 90%;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.signin{
+    background-color: blue;
+    color: white;
+    position: fixed;
+    top: 5%;
+    left: 95%;
+    padding: 10px;
+    cursor: pointer;
+}
+.allposts{
+    background-color: burlywood;
+    color: black;
+    position: fixed;
+    top: 53%;
+    left: 45%;
+    padding: 10px;
+    cursor: pointer;
+}
+.createpost{
+    background-color: burlywood;
+    color: black;
+    position: fixed;
+    top: 53%;
+    left: 51%;
+    padding: 10px;
+    cursor: pointer;
+}
+.modal-content span{
+    text-align: right;
+}
+.modal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: black;
+    position: static;
+    margin-top: 200px;
+    border-left: 200px;
+    
+}
+.submit{
+    background-color: limegreen;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    margin-top: 15px;
+}
+h3{
+    
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+.modal-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: black;
+    position: static;
+    margin-top: 200px;
+    border-left: 200px;
+}
+.submit-In{
+    background-color: limegreen;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    margin-top: 15px;
+}
+
